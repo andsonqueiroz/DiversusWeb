@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Krub;
+
+    src: url("../fontes/Krub-Regular.ttf");
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.imagem-esquerda{
+    width: 45%;
+    height: 100vh;
+    background: url("../imagens/banner\ autismo\ colorido.png");
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.cadastro{
+    height: 100vh;
+    width: 55%;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 7rem;
+    height: 7rem;
+}
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 5rem;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.input-box input{
+    border-radius: 3rem;
+    width: 15rem;
+    height: 2.5rem;
+    border: none;  
+    background-color: #D9D9D9;
+    padding: 0 15px;
+    font-size: 16px;
+    max-width: 100%;
+}
+label{
+    padding: 1rem;
+    font-family: Krub;
+}
+.botton-input{
+    text-align: center;
+    margin-top: 4rem;
+}
+.botton-input button{
+    border: none;
+    border-radius: 3rem;
+    width: 7rem;
+    height: 2.5rem;
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+    background-color: #246CE0;
+    margin-top: 1rem;
+}
+.login{
+    font-family: Krub;
+}
+.input-genero{
+    width: 270px;
+    font-family: Krub;
+}
+.input-genero input{
+    margin-top: 0.8rem;
+}
+input:focus-visible{
+    outline: 2px solid #246CE0;
+}

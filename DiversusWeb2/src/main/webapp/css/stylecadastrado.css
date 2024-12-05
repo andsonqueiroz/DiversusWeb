@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Krub;
+
+    src: url("../fontes/Krub-Regular.ttf");
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.imagem-esquerda{
+    width: 45%;
+    height: 100vh;
+    background: url("../imagens/banner\ autismo\ colorido.png");
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 7rem;
+    height: 7rem;
+}
+.concluido-box{
+    height: 100vh;
+    width: 55%;
+}
+.titulo{
+    margin: 2rem 4rem 4rem;
+    font-family: Krub;
+}
+.botao{
+    text-align: center;
+    margin-top: 4rem;
+}
+.foto-concluido img{
+    width: 15rem;
+    height: 15rem;
+}
+.foto-concluido{
+    text-align: center;
+}
+.botao{
+    text-align: center;
+    margin-top: 4rem;
+}
+.botao-concluir{
+    border: none;
+    border-radius: 3rem;
+    width: 7rem;
+    height: 2.5rem;
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+    background-color: #246CE0;
+    margin-top: 1rem;
+}

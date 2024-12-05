@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/stylecertificado.css">
+
+</head>
+<body>
+    <div id="container">
+        <div class="imagem-esquerda">
+        </div>
+        <div class="certificado-box">
+            <div class="logo">
+                <a href="#"> <img src="imagens/logoDiversus.png" alt="Logo Diversus"> </a>  <!--Ligar a tela de Apresentação-->
+            </div>
+            <div class="titulo">
+                <h2>Comprovante de Especialidade</h2>
+                <p>Comprove que você é um especialista com diplomas, certificados, etc em PDF.</p>
+            </div>
+            <div class="enviarComprovante">
+                <form action="UploadCertificadoServlet" method="POST" enctype="multipart/form-data">
+                    <label for="anexo">Enviar comprovante</label> <br>
+                    <input type="file" name="anexo">
+                    <div class="botao">
+                        <a href="#"><button type="submit" class="botao-submit">Próximo</button></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+        
+    <div vw class="enabled">
+	    <div vw-access-button class="active"></div>
+	    <div vw-plugin-wrapper>
+	    	<div class="vw-plugin-top-wrapper"></div>
+	    </div>
+  	</div>
+  	<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  	<script>
+    	new window.VLibras.Widget('https://vlibras.gov.br/app');
+  	</script>
+    
+</body>
+</html>

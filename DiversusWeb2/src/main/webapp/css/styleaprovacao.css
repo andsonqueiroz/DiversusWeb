@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: OpenSansSemiBold;
+
+    src: url("../fontes/OpenSans-SemiBold.ttf");
+}
+@font-face{
+    font-family: Krub;
+
+    src: url("../fontes/Krub-Regular.ttf");
+}
+.tabela{
+	margin-top: 30px;	
+	font-family: OpenSansSemiBold;
+}
+
+.tabela th{
+	border: 1px solid #0062ff;
+	padding: 10px;
+	text-align: left;
+	background-color: #246CE0;
+	color: #fff;
+	
+}
+
+.tabela td{
+	border: 1px solid #0062ff;
+	padding: 10px;
+	font-family: OpenSansSemiBold;
+    color: #fff;
+}
+
+body{
+	background-color: #353535;	
+    display: flex;
+flex-direction: column;
+    text-align: center;
+
+}
+
+.baixar{
+	font-family: Krub;
+}
+
+.titulo{
+	font-family: OpenSansSemiBold;
+    color: #fff;
+    background-color: #246CE0;
+}
+a{
+    text-decoration: none;
+}
+
+.aprovar{
+    color:rgb(0, 255, 38);
+}
+
+.reprovar{
+    color: #ff0000;
+}
+
+.baixar{
+    color: #246CE0;
+    font-weight: bold;
+}
+
+
+.sair-box{
+    height: 60px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sair{
+    color: #fff;
+    background-color: #246CE0;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 50px;
+}
+
+.enviar-box{
+    height: 60px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+}
+
+.enviar{
+    color: #fff;
+    background-color: #246CE0;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 50px;
+}

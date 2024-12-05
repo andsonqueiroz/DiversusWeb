@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: OpenSans Regular;
+    src: url(../PerfilEspecialista/Fontes/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans SemiBold;
+    src: url(../PerfilEspecialista/Fontes/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Krub;
+    src: url(../PerfilEspecialista/Fontes/Krub-Regular.ttf);
+}
+
+
+.logo{
+    margin: 6px;
+}
+
+.container-menu-pesquisa{
+    display: flex;
+    background-color: #4682B4;
+    height: 40px;
+    width: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 60%;
+}
+
+.menu{
+    border-radius: 5px;
+    background-size: 100px, 100px;
+    min-width: 25px;
+}
+
+.barraPesquisa{
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    width: 75%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.divBusca{
+    display: flex;
+    justify-content: center;
+}
+
+#txtBusca{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: OpenSans SemiBold;
+    font-size: 15px;
+    border: none;
+    height: 32px;
+    width: 460px;
+    border-radius: 15px;
+}
+
+#btBusca{
+    width: 25px; 
+    height: 25px;
+    margin-right: 10px;
+}
+
+.container-busca{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #D9D9D9;
+}
+
+.escolha-busca{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 35%;
+    margin-right: 35%;    
+}
+
+.especialista{
+    text-decoration: none;
+    color: black;
+    font-family: Krub;
+}
+
+.usuario{
+    text-decoration: none;
+    color: black;
+    font-family: Krub;
+}
+
+.pagina-completa{
+    display: flex;
+    justify-content: center;
+}
+
+.todos-perfis{
+    background-color: #D9D9D9;
+    margin-top: 150px;
+    height: 900px;
+    border-radius: 20px;
+    width: 60%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.perfil-inividual{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin: 50px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: OpenSans Regular;
+}
+
+.perfil{
+    border-radius: 100%;
+    margin: 10px;
+    
+}
+
+#nome-especialista{
+    padding: 0px;
+    margin: 0px;
+}
+
+#especialista{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.informacao-pessoa{
+    margin-top: 0px;
+}
+
+
+
+
